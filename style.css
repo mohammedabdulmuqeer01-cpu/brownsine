@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.container a{
+    color:white;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    font-size:17px ;
+    font-style: bold;
+}
+a:hover{
+    color: blue;
+}
+input{
+border-radius: 7px;
+height: 30px;
+width: 200px;
+}
+input:hover{
+    background-color: black;
+    color: white;
+}
+button{
+    margin-left: 95vw;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+button:hover{
+    color:white;
+    background-color: blue;
+    border-radius: 10px;
+}
+h1{
+   margin: 5% 20px 20% 80px;
+   font-size: 90px;
+   font-style: italic;
+}
+p{
+margin: -25% 50px 10% 1200px;
+font-size: 30px;
+}
+.middleheader{
+    display: flex;
+    justify-content: space-around;
+}
+.middleheader a{
+    text-decoration: none;
+    color: black;
+    padding: 2% 50px 2% 10px;
+}
+.middleheader:hover{
+    text-decoration: underline;
+}
+h2{
+    margin: 10% 20px 2% 20px;
+    font-size: 50px;
+    font-style: italic;
+}
+h3{
+    margin: -0% 200px 0% 200px ;
+    font-size:30px ;
+}
+.footer{
+    margin: 1% 60px 8% 60px;}
+    .footer a{
+        font-size: 14px;
+        padding: 0 8px 0 15px;
+        text-decoration: none;
+        border-style: solid;
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+        border-color: black;
+        color: black;
+    }  
+.footer a:hover{
+    background-color: black;
+    color: white;
+} 
